@@ -10,7 +10,6 @@ export function Topbar() {
       <nav className={styles.navBar}>
         <div>
           <Button link={"mailto:faustino.alex@outlook.com"} image={"/icons/email.svg"} />
-          {/* <Button link={"https://wa.me/5521971111312"} image={"/icons/whatsapp.svg"} /> */}
         </div>
         <div>
           <Button link={"https://www.linkedin.com/in/alex-faustino-98a750216/"} image={"/icons/linkedin.svg"} />
