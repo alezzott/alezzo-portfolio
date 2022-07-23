@@ -17,11 +17,13 @@
   height: auto !important;
   max-width: 100% !important;
   color: #fff;
+  display: block;
 }
 
 .portfolioDetails {
   padding: 1rem;
   color: #fff;
+  border: 1px solid red;
 }
 
 .portfolioDetails h4 {
@@ -46,6 +48,10 @@
 
 .icons .techs > div {
   margin-right: 1rem;
+  border: 1px solid blue;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .icons .external > a {
