@@ -6,7 +6,7 @@
       {
         "image": "/portfolio/feedback-frontend.jpg",
         "title": "Feedback FrontEnd",
-        "description": "Permite que o usuário deixe feedback sobre o site. Podendo relatar ou tirar um print, caso tenha um problema.",
+        "description": "Permite que o usuário deixe feedback sobre o site. Caso tenha um problema, sugestão ou outro, o usuário pode deixar seu feedback.",
         "techs": ["Typescript", "Vercel", "vite", "React", "tailwindcss"],
         "github": "https://github.com/alezzott/feedback-frontend",
         "website": "https://feedback-vite.vercel.app/"
@@ -22,7 +22,7 @@
       {
         "image": "/portfolio/letmeask.jpg",
         "title": "letmeask",
-        "description": "Permite que o usuário crie suas salas, faça perguntas, dê like nelas, além de marcar como respondido. Caso o usuário seja Administrador, poderá deletar as salas e perguntas.",
+        "description": "Permite que o usuário crie salas, faça perguntas e dê like nelas, além de marcar como respondido. Caso o usuário seja Administrador, o mesmo poderá deletar as salas e perguntas.",
         "techs": ["Typescript", "Firebase", "React", "Sass"],
         "github": "https://letmeask-3b91a.web.app/",
         "website": "#"
