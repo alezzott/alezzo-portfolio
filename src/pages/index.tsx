@@ -25,9 +25,6 @@ export default function Home() {
       </main>
       <footer className="footer">
         <p>made by me</p>
-        <a href="https://twitter.com/arnonrdp" rel="noopener noreferrer" target="_blank">
-          @arnonrdp
-        </a>
       </footer>
     </>
   );

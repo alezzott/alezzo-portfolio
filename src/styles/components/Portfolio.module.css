@@ -1,5 +1,5 @@
 .articles {
-  background-color: darkseagreen;
+  background-color: #586de9; /* fallback for old browsers */
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -9,17 +9,19 @@
 }
 
 .articles:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
 }
 
 .portfolioImage {
   border-radius: 12px 12px 0 0;
   height: auto !important;
   max-width: 100% !important;
+  color: #fff;
 }
 
 .portfolioDetails {
   padding: 1rem;
+  color: #fff;
 }
 
 .portfolioDetails h4 {

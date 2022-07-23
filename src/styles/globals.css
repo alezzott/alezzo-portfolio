@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #00b09b;
-  --secondary-color: #96c93d;
+  --primary-color: #5f96e0;
+  --secondary-color: #ba7beb;
   --info-color: #12535d;
 }
 
@@ -47,10 +47,23 @@ html {
 
 body {
   background: var(--primary-color);
-  background: -moz-linear-gradient(right, var(--secondary-color), var(--primary-color));
-  background: -webkit-linear-gradient(right, var(--secondary-color), var(--primary-color));
-  background: linear-gradient(to right, var(--secondary-color), var(--primary-color));
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Cantarell, Fira Sans, Helvetica Neue, sans-serif;
+  background: -moz-linear-gradient(
+    right,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  background: -webkit-linear-gradient(
+    right,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  background: linear-gradient(
+    to right,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Cantarell, Fira Sans,
+    Helvetica Neue, sans-serif;
   margin: auto;
   max-width: 1200px;
   padding: 0 2rem;
@@ -88,6 +101,7 @@ footer {
   display: flex;
   font-size: 0.9rem;
   justify-content: space-between;
+  color: #fff;
 }
 
 footer > a:hover {
