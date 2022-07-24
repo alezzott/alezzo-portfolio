@@ -23,7 +23,10 @@
 .portfolioDetails {
   padding: 1rem;
   color: #fff;
-  border: 1px solid red;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .portfolioDetails h4 {
@@ -48,7 +51,6 @@
 
 .icons .techs > div {
   margin-right: 1rem;
-  border: 1px solid blue;
   display: inline-block;
   flex-direction: row;
   justify-content: flex-start;
