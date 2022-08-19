@@ -24,8 +24,16 @@
         "title": "letmeask",
         "description": "Permite que o usuário crie salas, faça perguntas e dê like nelas, além de marcar como respondido. Caso o usuário seja Administrador, o mesmo poderá deletar as salas e perguntas.",
         "techs": ["Typescript", "Firebase", "React", "Sass"],
-        "github": "https://letmeask-3b91a.web.app/",
-        "website": "#"
+        "github": "https://github.com/alezzott/letmeask",
+        "website": "https://letmeask-3b91a.web.app/"
+      },
+      {
+        "image": "/portfolio/coffe.jpg",
+        "title": "rocketCoffe",
+        "description": "Construção de um Cardápio. Tem a opção de mudar o tema, entre o light e o dark.",
+        "techs": ["CSS", "JavaScript"],
+        "github": "https://github.com/alezzott/rocketCoffee",
+        "website": "https://rocketcoffe-plum.vercel.app/"
       }
     ]
   }
